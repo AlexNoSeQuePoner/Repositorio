@@ -13,3 +13,8 @@ Principal::~Principal()
     delete ui;
 }
 
+
+void Principal::on_cmdSaludar_clicked()
+{
+    ui->outSaludo->setText("Hola, este es la primera wea que hago con git");
+}

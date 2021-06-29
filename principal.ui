@@ -17,14 +17,40 @@
    <widget class="QLabel" name="label">
     <property name="geometry">
      <rect>
-      <x>210</x>
-      <y>150</y>
+      <x>190</x>
+      <y>90</y>
       <width>47</width>
       <height>13</height>
      </rect>
     </property>
     <property name="text">
      <string>ta madre</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="outSaludo">
+    <property name="geometry">
+     <rect>
+      <x>180</x>
+      <y>130</y>
+      <width>321</width>
+      <height>16</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>git xd</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="cmdSaludar">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>180</y>
+      <width>80</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>hola</string>
     </property>
    </widget>
   </widget>
